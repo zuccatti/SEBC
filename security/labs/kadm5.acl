@@ -1,0 +1,15 @@
+*/admin@CLOUDERA *
+cloudera-scm@CLOUDERA * flume/*@CLOUDERA
+cloudera-scm@CLOUDERA * hbase/*@CLOUDERA
+cloudera-scm@CLOUDERA * hdfs/*@CLOUDERA
+cloudera-scm@CLOUDERA * hive/*@CLOUDERA
+cloudera-scm@CLOUDERA * httpfs/*@CLOUDERA
+cloudera-scm@CLOUDERA * HTTP/*@CLOUDERA
+cloudera-scm@CLOUDERA * hue/*@CLOUDERA
+cloudera-scm@CLOUDERA * impala/*@CLOUDERA
+cloudera-scm@CLOUDERA * mapred/*@CLOUDERA
+cloudera-scm@CLOUDERA * oozie/*@CLOUDERA
+cloudera-scm@CLOUDERA * solr/*@CLOUDERA
+cloudera-scm@CLOUDERA * sqoop/*@CLOUDERA
+cloudera-scm@CLOUDERA * yarn/*@CLOUDERA
+cloudera-scm@CLOUDERA * zookeeper/*@CLOUDERA
