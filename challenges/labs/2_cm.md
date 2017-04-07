@@ -1,8 +1,7 @@
-I haven't used repo. Used wget and yum localinstall instead. Sorry!
-
-wget http://archive.cloudera.com/cm5/redhat/7/x86_64/cm/5.10.1/RPMS/x86_64/cloudera-manager-agent-5.10.1-1.cm5101.p0.6.el7.x86_64.rpm
-wget http://archive.cloudera.com/cm5/redhat/7/x86_64/cm/5.10.1/RPMS/x86_64/cloudera-manager-daemons-5.10.1-1.cm5101.p0.6.el7.x86_64.rpm
-wget http://archive.cloudera.com/cm5/redhat/7/x86_64/cm/5.10.1/RPMS/x86_64/cloudera-manager-server-5.10.1-1.cm5101.p0.6.el7.x86_64.rpm
-wget http://archive.cloudera.com/cm5/redhat/7/x86_64/cm/5.10.1/RPMS/x86_64/jdk-6u31-linux-amd64.rpm
-wget http://archive.cloudera.com/cm5/redhat/7/x86_64/cm/5.10.1/RPMS/x86_64/oracle-j2sdk1.7-1.7.0+update67-1.x86_64.rpm
-
+[ec2-user@ip-172-31-10-235 ~]$ sudo /usr/share/cmf/schema/scm_prepare_database.sh mysql -h ip-172-31-7-22.us-west-2.compute.internal -uroot -pcloudera scm scm scm
+JAVA_HOME=/usr/java/jdk1.7.0_67-cloudera
+Verifying that we can write to /etc/cloudera-scm-server
+Creating SCM configuration file in /etc/cloudera-scm-server
+Executing:  /usr/java/jdk1.7.0_67-cloudera/bin/java -cp /usr/share/java/mysql-connector-java.jar:/usr/share/java/oracle-connector-java.jar:/usr/share/cmf/schema/../lib/* com.cloudera.enterprise.dbutil.DbCommandExecutor /etc/cloudera-scm-server/db.properties com.cloudera.cmf.db.
+[                          main] DbCommandExecutor              INFO  Successfully connected to database.
+All done, your SCM database is configured correctly!
